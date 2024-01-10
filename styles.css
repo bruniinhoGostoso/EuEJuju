@@ -1,89 +1,108 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 nav {
-    background-color: #333;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: white;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: auto;
+}
+.titulo {
+  color: black;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-decoration-color: #0ea5e9;
+}
+.area-logo {
+  display: flex;
+  align-items: center;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 40px; /* Ajuste conforme necessário */
-    height: auto;
-    margin-right: 10px;
-}
-
-.logo h1 {
-    color: #fff;
-    margin: 0;
+.imagem-logo {
+  width: 2.5rem;
+  height: auto;
+  margin-right: 10px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    transition: background-color 0.3s;
+.botao {
+  margin: 0.25rem;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  transition: background-color 0.2s;
+  border-radius: 2rem;
+}
+.botao:hover {
+    background-color: black;
+    border-radius: 2rem;
+    color: white;
+  }
+
+.especial {
+  height: 1rem;
+  width: auto;
+  background-color: #425cde;
+  border-radius: 2rem;
 }
 
-a:hover {
-    background-color: #555;
+.especial:hover {
+  transform: scale(1.5);
+  background-color: #36c683;
 }
 
-header, section, footer {
-    text-align: center;
-    padding: 50px 20px;
+header,
+section,
+footer {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 header {
-    background-color: #3498db;
-    color: #fff;
+  background-color: #3498db;
+  color: #fff;
 }
 
 section {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .purchase-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e74c3c;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
